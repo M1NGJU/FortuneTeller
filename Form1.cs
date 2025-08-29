@@ -105,11 +105,11 @@ namespace FortuneTeller
             }
             catch(UnauthorizedAccessException ex)
             {
-                MessageBox.Show($"알 수 없는 오류가 발생했습니다.")
+                MessageBox.Show($"알 수 없는 오류가 발생했습니다.");
             }
             catch(Exception ex)
             {
-                MessageBox.Show($"알 수 없는 오류가 발생했습니다.")
+                MessageBox.Show($"알 수 없는 오류가 발생했습니다.");
             }
         }
     }
