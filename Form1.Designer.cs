@@ -35,7 +35,9 @@
             this.tbBirthday = new System.Windows.Forms.TextBox();
             this.tbBirthtime = new System.Windows.Forms.TextBox();
             this.btnShowResult = new System.Windows.Forms.Button();
+            this.tbResult = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -54,6 +56,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.tbResult);
             this.groupBox2.Location = new System.Drawing.Point(410, 28);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(368, 397);
@@ -102,6 +105,15 @@
             this.btnShowResult.Text = "사주 결과 보기";
             this.btnShowResult.UseVisualStyleBackColor = true;
             // 
+            // tbResult
+            // 
+            this.tbResult.Location = new System.Drawing.Point(17, 20);
+            this.tbResult.Multiline = true;
+            this.tbResult.Name = "tbResult";
+            this.tbResult.ReadOnly = true;
+            this.tbResult.Size = new System.Drawing.Size(333, 359);
+            this.tbResult.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -113,6 +125,8 @@
             this.Text = "3102김민주";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -126,6 +140,7 @@
         private System.Windows.Forms.TextBox tbBirthday;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbResult;
     }
 }
 
