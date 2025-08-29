@@ -55,6 +55,7 @@
             this.btnRefresh.TabIndex = 1;
             this.btnRefresh.Text = "내역 다시 불러오기";
             this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // FormHistory
             // 
