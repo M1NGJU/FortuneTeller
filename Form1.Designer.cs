@@ -69,6 +69,7 @@
             this.btnShowResult.TabIndex = 4;
             this.btnShowResult.Text = "사주 결과 보기";
             this.btnShowResult.UseVisualStyleBackColor = true;
+            this.btnShowResult.Click += new System.EventHandler(this.btnShowResult_Click);
             // 
             // tbBirthtime
             // 
